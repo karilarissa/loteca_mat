@@ -1,0 +1,93 @@
+header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+input[type="number"]::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  text-align: center;
+}
+input[type="number"] {
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
+h1,
+h3 {
+  font-size: 5em;
+  color: rgb(51, 184, 51);
+  font-family: Impact, sans-serif;
+  letter-spacing: 10px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 3em;
+  font-style: normal;
+  font-variant: normal;
+  color: rgb(7, 51, 6);
+  font-family: sans-serif;
+  margin-top: 10px;
+}
+
+.selecao,
+.btnSort,
+.sorteio,
+.acertos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.btnSort > button {
+  font-size: 2em;
+  padding: 10px 25px;
+  background-color: rgb(54, 95, 12);
+  border: 1px solid black;
+  border-radius: 10px;
+  font-family: sans-serif;
+  font-weight: bold;
+  font-size: 3em;
+  color: #ffffff;
+}
+
+.selecao > input {
+  width: 1.5em;
+  font-size: 4em;
+  margin-right: 15px;
+  background-color: rgb(33, 105, 49);
+  border: 1px solid black;
+  border-radius: 15px;
+}
+footer {
+  background-color: rgb(0, 0, 0);
+  height: 100px;
+  width: 100%;
+  margin: 0;
+  padding-top: 10px;
+  bottom: 0;
+}
+
+footer > p {
+  color: white;
+  font-size: 2em;
+  text-align: center;
+}
+p > a {
+  color: rgb(163, 13, 13);
+  text-decoration: none;
+}
+div > p {
+  font-family: sans-serif;
+  text-indent: 10px;
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+}
+div > h4 {
+  font-size: 2em;
+  color: rgb(0, 0, 0);
+  font-family: sans-serif;
+  font-weight: bold;
+}
